@@ -6,7 +6,7 @@ The result of program should show the difference between the files. The format o
 
 For example:
 
-# File1
+## File1
 
 ```sh
  Some
@@ -15,7 +15,7 @@ For example:
  File
 ```
 
-# File2
+## File2
 ```sh
  Another
  Text
@@ -25,7 +25,7 @@ For example:
  Lines
 ```
 
-# The result of program should look like this:
+## The result of program should look like this:
 ```sh
  1  *   Some|Another
  2  -   Simple
@@ -66,8 +66,8 @@ From the code prospective, program should be implemented as a component that can
 ## How to Use
 You need [Node.js](https://nodejs.org) installed on your machine. 
 
-# CLI mode:
+## CLI mode:
     node compare.js file1.txt file2.txt 
 
-# Module mode:
+## Module mode:
     Example in test.js
